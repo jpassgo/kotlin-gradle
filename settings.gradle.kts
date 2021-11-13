@@ -8,4 +8,7 @@
  */
 
 rootProject.name = "kotlin-gradle"
-include("app")
+include(
+    "app",
+    "core"
+)

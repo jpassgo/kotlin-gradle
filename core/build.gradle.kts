@@ -6,13 +6,10 @@
  * User Manual available at https://docs.gradle.org/7.2/userguide/building_java_projects.html
  */
 
-dependencies {
-    implementation(project(":core"))
-}
 
 application {
     // Define the main class for the application.
     // Extension configuration block
-    mainClass.set("kotlin.gradle.App")
+    mainClass.set("kotlin.gradle.Core")
     applicationDefaultJvmArgs = listOf("-Xmx4m")
 }
